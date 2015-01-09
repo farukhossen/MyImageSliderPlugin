@@ -41,3 +41,10 @@ You don't need add any css of your own.All you have to do is to use the **imageS
         $(document).ready(function(){
             $(".slider").slideshow();	
         });
+#Section 5:Options
+There are five options-
+* **type**(type can be fadein-fadeout,left-right,up-down)//by default type is fadein-fadeout
+* **speed**(animation speed in ms)
+* **interval**(sliding interval that is how often slider slides in ms)
+* **clikable**(whether user can change the slide by clicking left-right and up-down arrows)(true/false)
+* **slide-selectable**(whether user is interested to see the buttons under the slideshow)(true/false)
