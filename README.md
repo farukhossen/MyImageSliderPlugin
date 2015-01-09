@@ -3,7 +3,7 @@ This is a very simple image slider plugin for the beginners.Code Structure is ve
 #Section 2:How to use
 There are 6 html files.If you go through all those you will get step by step ideas to use the plugin.
 * Write the markup as described in **imageSlider.html** files.
-* Item Call the plugin function like this **$(".slider).slideshow()**.
+* Call the plugin function like this **$(".slider).slideshow()**.
 * To to put options use curly brace and put your options.  **$(".slider).slideshow({//options go here})**
   
 # Section 3:Basic Markup
@@ -48,3 +48,13 @@ There are five options-
 * **interval**(sliding interval that is how often slider slides in ms)
 * **clikable**(whether user can change the slide by clicking left-right and up-down arrows)(true/false)
 * **slide-selectable**(whether user is interested to see the buttons under the slideshow)(true/false)
+
+#Section 7:Better UnderStanding
+For better understanding run the 6  html files-
+* imageSlider1.html (basic fadein-fadeout slider)
+* imageSlider2.html (baseic fadein-fadeout slider speed and interval is changed)
+* imageSlider3.html (left-right slider)
+* imageSlider4.html (left-right slider with left-right arrows)
+* imageSlider5.html (left-right slider without slide-slectable below the slider)
+* imageSlider6.html (up-down slider with all options.
+Play with all these files and understand
