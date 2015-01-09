@@ -49,7 +49,23 @@ There are five options-
 * **clikable**(whether user can change the slide by clicking left-right and up-down arrows)(true/false)
 * **slide-selectable**(whether user is interested to see the buttons under the slideshow)(true/false)
 
-#Section 7:Better UnderStanding
+
+#Section 7:How to Use Options
+
+$(document).ready(function(){
+		$(".slider").slideshow(
+			{
+				'type':'left-right',
+				'speed':1000,
+				'interval':5000,
+				'clickable':true,
+				'slide-selectable':false
+			}
+		);	
+		
+});
+
+#Section 8:Better UnderStanding
 For better understanding run the 6  html files-
 * imageSlider1.html (basic fadein-fadeout slider)
 * imageSlider2.html (baseic fadein-fadeout slider speed and interval is changed)
