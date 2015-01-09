@@ -34,14 +34,14 @@ There are 6 html files.If you go through all those you will get step by step ide
           		</div>
           		
           	</div>
-# Section 3:Adding CSS
+# Section 4:Adding CSS
 You don't need add any css of your own.All you have to do is to use the **imageSlider.css** to get the plugin going.
-#Section 4:Calling the plugin
+#Section 5:Calling the plugin
         
         $(document).ready(function(){
             $(".slider").slideshow();	
         });
-#Section 5:Options
+#Section 6:Options
 There are five options-
 * **type**(type can be fadein-fadeout,left-right,up-down)//by default type is fadein-fadeout
 * **speed**(animation speed in ms)
