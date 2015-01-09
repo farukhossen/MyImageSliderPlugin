@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/imageSlider.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/imageSliderPlugin.js"></script>
+</head>
+<body>
+	<div class="slider">
+		<div class="slidesContainer">
+			<div class="slide">
+				<img src="images/slide1.jpg"/>
+			</div>
+			<div class="slide">
+				<img src="images/slide2.jpg"/>
+			</div>
+			<div class="slide">
+				<img src="images/slide3.jpg"/>
+			</div>
+			<div class="slide">
+				<img src="images/slide4.jpg"/>
+			</div>
+			<div class="slide">
+				<img src="images/slide5.jpg"/>
+			</div>
+			<div class="slide">
+				<img src="images/slide6.jpg"/>
+			</div>
+			<div class="slide">
+				<img src="images/slide7.jpg"/>
+			</div>
+			
+		</div>
+		
+	</div>
+</body>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$(".slider").slideshow({'type':'left-right','speed':1000,'interval':5000,'clickable':true});	
+		
+	});
+	
+</script>
+</html>
