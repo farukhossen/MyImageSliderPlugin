@@ -6,7 +6,7 @@ There are 6 html files.If you go through all those you will get step by step ide
 * Item Call the plugin function like this **$(".slider).slideshow()**.
 * To to put options use curly brace and put your options.  **$(".slider).slideshow({//options go here})**
   
-#Section 3:Basic Markup
+# Section 3:Basic Markup
           <div class="slider">
           		<div class="slidesContainer">
           			<div class="slide">
@@ -34,7 +34,7 @@ There are 6 html files.If you go through all those you will get step by step ide
           		</div>
           		
           	</div>
-  #Section 3:CSS
-    you have to use the **imageSlider.css** to get the plugin going.
-  #Section 4:Calling the plugin
-    You can simply
+# Section 3:Adding CSS
+You don't need add any css of your own.All you have to do is to use the **imageSlider.css** to get the plugin going.
+#Section 4:Calling the plugin
+    You can simply c
