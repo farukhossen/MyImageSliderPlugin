@@ -37,4 +37,7 @@ There are 6 html files.If you go through all those you will get step by step ide
 # Section 3:Adding CSS
 You don't need add any css of your own.All you have to do is to use the **imageSlider.css** to get the plugin going.
 #Section 4:Calling the plugin
-    You can simply c
+        
+        $(document).ready(function(){
+            $(".slider").slideshow();	
+        });
